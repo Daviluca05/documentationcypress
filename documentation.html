@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mediotec Login System Docs</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="documentation.css" />
+</head>
+<body>
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <h2>Sections</h2>
+    <a href="#readme">README</a>
+    <a href="#installation">Installation Guide</a>
+    <a href="#api">API Reference</a>
+    <a href="#contribution">Contribution Guide</a>
+  </aside>
+
+  <!-- Header -->
+  <header>
+    <h1>Mediotec Login System Documentation</h1>
+    <p>React + Cypress based login system with full technical documentation</p>
+  </header>
+
+  <!-- Sections -->
+  <section id="readme">
+    <h2>• README</h2>
+    <p>Welcome to the Mediotec Login System! This project is a simple and effective login page developed using React and tested with Cypress.</p>
+    <ul>
+      <li>Responsive login page using React</li>
+      <li>Cypress end-to-end testing</li>
+      <li>Custom styles with CSS</li>
+      <li>Functional input fields and form handling</li>
+    </ul>
+    <p>This project was created for a Tech English documentation assignment.</p>
+  </section>
+
+  <section id="installation">
+    <h2>• Installation Guide</h2>
+    <ol>
+      <li>Clone the repository:
+        <pre><code>git clone https://github.com/your-user/seu-projeto.git
+cd seu-projeto</code></pre>
+      </li>
+      <li>Install dependencies:
+        <pre><code>npm install</code></pre>
+      </li>
+      <li>Start the development server:
+        <pre><code>npm run dev</code></pre>
+        <p>Access <code>http://localhost:5173</code> in your browser.</p>
+      </li>
+    </ol>
+    <h3>Running Tests</h3>
+    <ul>
+      <li>Install Cypress:
+        <pre><code>npm install --save-dev cypress</code></pre>
+      </li>
+      <li>Open Cypress:
+        <pre><code>npx cypress open</code></pre>
+      </li>
+      <li>Run tests:
+        <pre><code>npm run test</code></pre>
+        <pre><code>npm run test:headed</code></pre>
+        <pre><code>npm run test:open</code></pre>
+      </li>
+    </ul>
+  </section>
+
+  <section id="api">
+    <h2>• API Reference</h2>
+    <p>This is a front-end-only project. There are no API endpoints. The behavior is defined by React components and Cypress test cases.</p>
+    <h3>Form Elements</h3>
+    <table>
+      <tr><th>Element</th><th>Description</th></tr>
+      <tr><td>Email Input</td><td>Receives user's email</td></tr>
+      <tr><td>Password Input</td><td>Receives user's password</td></tr>
+      <tr><td>Submit Button</td><td>Sends form for login</td></tr>
+    </table>
+    <h3>Test File</h3>
+    <p>Located at <code>cypress/e2e/login.cy.js</code>. It tests visibility, typing, and form submission with success message.</p>
+  </section>
+
+  <section id="contribution">
+    <h2>• Contribution Guide</h2>
+    <ol>
+      <li>Fork the repository</li>
+      <li>Create a new branch:
+        <pre><code>git checkout -b feature/your-feature</code></pre>
+      </li>
+      <li>Make changes and test locally</li>
+      <li>Submit a pull request with a clear description</li>
+    </ol>
+    <h3>Rules</h3>
+    <ul>
+      <li>Follow existing code structure and best practices</li>
+      <li>Use semantic HTML and React standards</li>
+      <li>Add or update Cypress tests for new features</li>
+      <li>Test thoroughly before submitting</li>
+    </ul>
+  </section>
+
+  <footer>
+    &copy; 2025 Mediotec Docs | Tech English IV Project
+  </footer>
+</body>
+</html>
